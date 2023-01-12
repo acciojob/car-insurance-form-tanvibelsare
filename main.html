@@ -9,26 +9,26 @@
 
 <body>
 	<form action="#" method="post">
-		<label for="name">Name:</label>
-	<input id="name" value="name" type="text"><br>
+	<label for="name">Name:</label>
+	<input id="name" value="name" type="text" required><br>
 	<label for="email">Email:</label>
-	<input id="email" value="Email" type="email"><br>
+	<input id="email" value="Email" type="email" required><br>
 	<label for="male">Male:</label>
-	<input  type="radio" name="gender">
+	<input  type="radio" name="gender" required>
 	<label for="male">female:</label>
-	<input  type="radio" name="gender"><br>
-	<label for="car-brands">Car brands:</label>
+	<input  type="radio" name="gender" required</label><br>
+     <label for="cars">Cars:</label>
 	<select id="cars">
 		<option>BMW</option>
 		<option>Audi</option>
 		<option>Mercedez</option>
 	</select><br>
 	<label for="car age">Car Age:</label>
-	<input type="number" id="carage"><br>
+	<input type="number" id="carage" required><br>
 	<label for="date of purchase">Date of Purchase:</label>
-	<input type="date" id="dop"><br>
+	<input type="date" id="dop" required><br>
 	<label for="password">Password:</label>
-	<input type="password" name="password" value="password"><br>
+	<input type="password" name="password" value="password" required><br>
 	<input type="submit" value="submit">
 	
 	</form>
